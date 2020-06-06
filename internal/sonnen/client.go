@@ -37,7 +37,7 @@ type Stats struct {
 
 func GetStats() (*Stats, error) {
 	//url := "http://SB-62312.local:8080/api/v1/status"
-	url := "http://192.168.1.122:8080/api/v1/status"
+	url := "http://192.168.1.125:8080/api/v1/status"
 	req, err := http.NewRequest("GET", url, nil)
 
 	if err != nil {
